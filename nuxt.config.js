@@ -62,7 +62,6 @@ export default {
                     test:'test',
                     pktuveuxpas:'pktuveuxpas'
                   },
-                  shadow: true
                 },
               },
           ]
