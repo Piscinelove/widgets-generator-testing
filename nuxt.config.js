@@ -44,10 +44,10 @@ export default {
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
     ['~/modules/nuxt-aio-widget', {
-        analyzer: true,
+        analyzer: false,
         polyfill: true,
         publicPath: '/',
-        staticPath: resolve(__dirname, './static/test'),
+        staticPath: resolve(__dirname, './static/widgets'),
         entries: [
           {
             name: 'packages',
@@ -55,12 +55,14 @@ export default {
               {
                 async: false,
                 name: 'NetplusTestPackages',
-                path: '@/components/widgets/Test.vue',
+                path: '~/components/widgets/Test.vue',
                 options: {
                   props: {
-                    basePath: '/'
-                  }
-                }
+                    test:'test',
+                    pktuveuxpas:'pktuveuxpas'
+                  },
+                  shadow: true
+                },
               },
           ]
           }

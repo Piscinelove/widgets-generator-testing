@@ -25,7 +25,7 @@
         </a>
       </div>
       <client-only>
-      <netplus-test-packages></netplus-test-packages>
+      <netplus-test-packages test="test"></netplus-test-packages>
       </client-only>
     </div>
   </div>
@@ -39,7 +39,7 @@ export default {
     Logo
   },
   created() {
-        this.$registerCustomElementsEntry('packages');
+      this.$registerCustomElementsEntry('packages');
   }
 }
 </script>

@@ -4,17 +4,17 @@
   "warnings": [
   ],
   "version": "4.41.6",
-  "hash": "20c60b0a3d6993f3fcbf",
-  "time": 1134,
-  "builtAt": 1582983520131,
+  "hash": "4c34a2bcbc32d60f870c",
+  "time": 3375,
+  "builtAt": 1582987774401,
   "publicPath": "./",
   "outputPath": "/workspace/widgets-generator-testing/.nuxt/nuxt-custom-elements/dist/packages",
   "assetsByChunkName": {
-    "packages": "packages.20c60b0a3d6993f3fcbf.js"
+    "packages": "packages.4c34a2bcbc32d60f870c.js"
   },
   "assets": [
     {
-      "name": "1.20c60b0a3d6993f3fcbf.js",
+      "name": "1.4c34a2bcbc32d60f870c.js",
       "size": 13991,
       "chunks": [
         1
@@ -28,7 +28,7 @@
     },
     {
       "name": "index.html",
-      "size": 270,
+      "size": 269,
       "chunks": [
       ],
       "chunkNames": [
@@ -38,8 +38,8 @@
       "emitted": true
     },
     {
-      "name": "packages.20c60b0a3d6993f3fcbf.js",
-      "size": 106498,
+      "name": "packages.4c34a2bcbc32d60f870c.js",
+      "size": 106564,
       "chunks": [
         0
       ],
@@ -59,7 +59,7 @@
         0
       ],
       "assets": [
-        "packages.20c60b0a3d6993f3fcbf.js"
+        "packages.4c34a2bcbc32d60f870c.js"
       ],
       "children": {
       },
@@ -73,7 +73,7 @@
         0
       ],
       "assets": [
-        "packages.20c60b0a3d6993f3fcbf.js"
+        "packages.4c34a2bcbc32d60f870c.js"
       ],
       "children": {
       },
@@ -87,14 +87,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 333862,
+      "size": 333961,
       "names": [
         "packages"
       ],
       "files": [
-        "packages.20c60b0a3d6993f3fcbf.js"
+        "packages.4c34a2bcbc32d60f870c.js"
       ],
-      "hash": "21dcd519432bded4d66a",
+      "hash": "f514ad2fc826c5436edd",
       "siblings": [
       ],
       "parents": [
@@ -414,9 +414,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_promise-resolve.js",
-          "issuerId": 41,
-          "issuerName": "./node_modules/core-js/modules/_promise-resolve.js",
+          "issuer": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_species-constructor.js",
+          "issuerId": 38,
+          "issuerName": "./node_modules/core-js/modules/_species-constructor.js",
           "issuerPath": [
             {
               "id": null,
@@ -429,9 +429,9 @@
               "name": "./node_modules/core-js/modules/es7.promise.finally.js"
             },
             {
-              "id": 41,
-              "identifier": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_promise-resolve.js",
-              "name": "./node_modules/core-js/modules/_promise-resolve.js"
+              "id": 38,
+              "identifier": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_species-constructor.js",
+              "name": "./node_modules/core-js/modules/_species-constructor.js"
             }
           ],
           "failed": false,
@@ -1647,7 +1647,7 @@
           "name": "./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/widgets/Test.vue?vue&type=script&lang=js&",
           "index": 77,
           "index2": 74,
-          "size": 20,
+          "size": 26,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1726,7 +1726,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 3,
-          "source": "//\n//\n//\n//\n//\n//\n//"
+          "source": "//\n//\n//\n//\n//\n//\n//\n//\n//"
         },
         {
           "id": 17,
@@ -2475,11 +2475,11 @@
         },
         {
           "id": 27,
-          "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188& e9fccab4bf601facecccf05ca29eadba",
-          "name": "./components/widgets/Test.vue?vue&type=template&id=9bd09188& + 1 modules",
+          "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e& f2b035e2e8ca37c5fadcfbab94283a2a",
+          "name": "./components/widgets/Test.vue?vue&type=template&id=2521126e& + 1 modules",
           "index": 74,
           "index2": 73,
-          "size": 452,
+          "size": 546,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2503,7 +2503,7 @@
               "module": "./components/widgets/Test.vue",
               "moduleName": "./components/widgets/Test.vue",
               "type": "harmony side effect evaluation",
-              "userRequest": "./Test.vue?vue&type=template&id=9bd09188&",
+              "userRequest": "./Test.vue?vue&type=template&id=2521126e&",
               "loc": "1:0-83"
             },
             {
@@ -2512,7 +2512,7 @@
               "module": "./components/widgets/Test.vue",
               "moduleName": "./components/widgets/Test.vue",
               "type": "harmony import specifier",
-              "userRequest": "./Test.vue?vue&type=template&id=9bd09188&",
+              "userRequest": "./Test.vue?vue&type=template&id=2521126e&",
               "loc": "10:2-8"
             },
             {
@@ -2521,7 +2521,7 @@
               "module": "./components/widgets/Test.vue",
               "moduleName": "./components/widgets/Test.vue",
               "type": "harmony import specifier",
-              "userRequest": "./Test.vue?vue&type=template&id=9bd09188&",
+              "userRequest": "./Test.vue?vue&type=template&id=2521126e&",
               "loc": "11:2-17"
             }
           ],
@@ -2539,8 +2539,8 @@
           "modules": [
             {
               "id": null,
-              "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-              "name": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
+              "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e&",
+              "name": "./components/widgets/Test.vue?vue&type=template&id=2521126e&",
               "index": 74,
               "index2": 73,
               "size": 202,
@@ -2577,7 +2577,7 @@
                   "module": "./components/widgets/Test.vue",
                   "moduleName": "./components/widgets/Test.vue",
                   "type": "harmony side effect evaluation",
-                  "userRequest": "./Test.vue?vue&type=template&id=9bd09188&",
+                  "userRequest": "./Test.vue?vue&type=template&id=2521126e&",
                   "loc": "1:0-83"
                 },
                 {
@@ -2586,7 +2586,7 @@
                   "module": "./components/widgets/Test.vue",
                   "moduleName": "./components/widgets/Test.vue",
                   "type": "harmony import specifier",
-                  "userRequest": "./Test.vue?vue&type=template&id=9bd09188&",
+                  "userRequest": "./Test.vue?vue&type=template&id=2521126e&",
                   "loc": "10:2-8"
                 },
                 {
@@ -2595,7 +2595,7 @@
                   "module": "./components/widgets/Test.vue",
                   "moduleName": "./components/widgets/Test.vue",
                   "type": "harmony import specifier",
-                  "userRequest": "./Test.vue?vue&type=template&id=9bd09188&",
+                  "userRequest": "./Test.vue?vue&type=template&id=2521126e&",
                   "loc": "11:2-17"
                 }
               ],
@@ -2610,24 +2610,24 @@
               "optimizationBailout": [
               ],
               "depth": 2,
-              "source": "export * from \"-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Test.vue?vue&type=template&id=9bd09188&\""
+              "source": "export * from \"-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Test.vue?vue&type=template&id=2521126e&\""
             },
             {
               "id": null,
-              "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-              "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
+              "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e&",
+              "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./components/widgets/Test.vue?vue&type=template&id=2521126e&",
               "index": 75,
               "index2": 72,
-              "size": 250,
+              "size": 344,
               "cacheable": true,
               "built": true,
               "optional": false,
               "prefetched": false,
               "chunks": [
               ],
-              "issuer": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188&",
+              "issuer": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e&",
               "issuerId": null,
-              "issuerName": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
+              "issuerName": "./components/widgets/Test.vue?vue&type=template&id=2521126e&",
               "issuerPath": [
                 {
                   "id": null,
@@ -2641,8 +2641,8 @@
                 },
                 {
                   "id": null,
-                  "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-                  "name": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&"
+                  "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e&",
+                  "name": "./components/widgets/Test.vue?vue&type=template&id=2521126e&"
                 }
               ],
               "failed": false,
@@ -2653,20 +2653,20 @@
               "reasons": [
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-                  "module": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-                  "moduleName": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
+                  "moduleIdentifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e&",
+                  "module": "./components/widgets/Test.vue?vue&type=template&id=2521126e&",
+                  "moduleName": "./components/widgets/Test.vue?vue&type=template&id=2521126e&",
                   "type": "harmony side effect evaluation",
-                  "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Test.vue?vue&type=template&id=9bd09188&",
+                  "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Test.vue?vue&type=template&id=2521126e&",
                   "loc": "1:0-202"
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-                  "module": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-                  "moduleName": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
+                  "moduleIdentifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e&",
+                  "module": "./components/widgets/Test.vue?vue&type=template&id=2521126e&",
+                  "moduleName": "./components/widgets/Test.vue?vue&type=template&id=2521126e&",
                   "type": "harmony export imported specifier",
-                  "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Test.vue?vue&type=template&id=9bd09188&",
+                  "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Test.vue?vue&type=template&id=2521126e&",
                   "loc": "1:0-202"
                 }
               ],
@@ -2681,7 +2681,7 @@
               "optimizationBailout": [
               ],
               "depth": 3,
-              "source": "var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v(\"Widget Title\")]),_vm._v(\" \"),_c('p',[_vm._v(_vm._s(_vm.test))])])}\nvar staticRenderFns = []\n\nexport { render, staticRenderFns }"
+              "source": "var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v(\"Widget Title\")]),_vm._v(\" \"),_c('p',[_vm._v(_vm._s(_vm.test))]),_vm._v(\" \"),_c('h1',[_vm._v(_vm._s(_vm.test))]),_vm._v(\" \"),_c('h1',[_vm._v(\"Widget Title\")])])}\nvar staticRenderFns = []\n\nexport { render, staticRenderFns }"
             }
           ],
           "filteredModules": 0
@@ -3650,7 +3650,7 @@
               "module": "./.nuxt/nuxt-custom-elements/entries/packages.js + 2 modules",
               "moduleName": "./.nuxt/nuxt-custom-elements/entries/packages.js + 2 modules",
               "type": "harmony side effect evaluation",
-              "userRequest": "@/components/widgets/Test.vue",
+              "userRequest": "~/components/widgets/Test.vue",
               "loc": "9:0-55"
             },
             {
@@ -3659,7 +3659,7 @@
               "module": "./.nuxt/nuxt-custom-elements/entries/packages.js + 2 modules",
               "moduleName": "./.nuxt/nuxt-custom-elements/entries/packages.js + 2 modules",
               "type": "harmony import specifier",
-              "userRequest": "@/components/widgets/Test.vue",
+              "userRequest": "~/components/widgets/Test.vue",
               "loc": "47:45-55"
             }
           ],
@@ -3671,7 +3671,7 @@
             "ModuleConcatenation bailout: Module exports are unknown"
           ],
           "depth": 1,
-          "source": "import { render, staticRenderFns } from \"./Test.vue?vue&type=template&id=9bd09188&\"\nimport script from \"./Test.vue?vue&type=script&lang=js&\"\nexport * from \"./Test.vue?vue&type=script&lang=js&\"\n\n\n/* normalize component */\nimport normalizer from \"!../../node_modules/vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  null,\n  null\n  \n)\n\nexport default component.exports"
+          "source": "import { render, staticRenderFns } from \"./Test.vue?vue&type=template&id=2521126e&\"\nimport script from \"./Test.vue?vue&type=script&lang=js&\"\nexport * from \"./Test.vue?vue&type=script&lang=js&\"\n\n\n/* normalize component */\nimport normalizer from \"!../../node_modules/vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  null,\n  null\n  \n)\n\nexport default component.exports"
         },
         {
           "id": 43,
@@ -5782,7 +5782,7 @@
           "name": "./.nuxt/nuxt-custom-elements/entries/packages.js + 2 modules",
           "index": 0,
           "index2": 83,
-          "size": 22219,
+          "size": 22218,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5825,7 +5825,7 @@
               "name": "./.nuxt/nuxt-custom-elements/entries/packages.js",
               "index": 0,
               "index2": 83,
-              "size": 1637,
+              "size": 1636,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -5859,7 +5859,7 @@
                 "ModuleConcatenation bailout: Module is an entry point"
               ],
               "depth": 0,
-              "source": "import \"regenerator-runtime/runtime\";\nimport _asyncToGenerator from \"@babel/runtime/helpers/esm/asyncToGenerator\";\nimport \"core-js/modules/es6.array.iterator\";\nimport \"core-js/modules/es6.promise\";\nimport \"core-js/modules/es6.object.assign\";\nimport \"core-js/modules/es7.promise.finally\";\nimport Vue from 'vue';\nimport VueCustomElement from 'vue-custom-element';\nimport Component0 from '@/components/widgets/Test.vue';\nVue.use(VueCustomElement);\n\nfunction polyfill() {\n  return _polyfill.apply(this, arguments);\n}\n\nfunction _polyfill() {\n  _polyfill = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            if ('customElements' in window || 'registerElement' in document) {\n              _context.next = 6;\n              break;\n            }\n\n            _context.next = 3;\n            return import('document-register-element/build/document-register-element');\n\n          case 3:\n            return _context.abrupt(\"return\", _context.sent);\n\n          case 6:\n            return _context.abrupt(\"return\");\n\n          case 7:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee);\n  }));\n  return _polyfill.apply(this, arguments);\n}\n\npolyfill().then(function () {\n  Vue.customElement('netplus-test-packages', Component0, {\n    \"shadow\": false,\n    \"props\": {\n      \"basePath\": \"/\"\n    }\n  }); // Create missing NuxtLink as RouterLink.\n\n  Vue.component('NuxtLink', {\n    extends: Vue.component('RouterLink')\n  });\n});"
+              "source": "import \"regenerator-runtime/runtime\";\nimport _asyncToGenerator from \"@babel/runtime/helpers/esm/asyncToGenerator\";\nimport \"core-js/modules/es6.array.iterator\";\nimport \"core-js/modules/es6.promise\";\nimport \"core-js/modules/es6.object.assign\";\nimport \"core-js/modules/es7.promise.finally\";\nimport Vue from 'vue';\nimport VueCustomElement from 'vue-custom-element';\nimport Component0 from '~/components/widgets/Test.vue';\nVue.use(VueCustomElement);\n\nfunction polyfill() {\n  return _polyfill.apply(this, arguments);\n}\n\nfunction _polyfill() {\n  _polyfill = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            if ('customElements' in window || 'registerElement' in document) {\n              _context.next = 6;\n              break;\n            }\n\n            _context.next = 3;\n            return import('document-register-element/build/document-register-element');\n\n          case 3:\n            return _context.abrupt(\"return\", _context.sent);\n\n          case 6:\n            return _context.abrupt(\"return\");\n\n          case 7:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee);\n  }));\n  return _polyfill.apply(this, arguments);\n}\n\npolyfill().then(function () {\n  Vue.customElement('netplus-test-packages', Component0, {\n    \"shadow\": true,\n    \"props\": {\n      \"test\": \"salut\"\n    }\n  }); // Create missing NuxtLink as RouterLink.\n\n  Vue.component('NuxtLink', {\n    extends: Vue.component('RouterLink')\n  });\n});"
             },
             {
               "id": null,
@@ -6005,7 +6005,7 @@
       "names": [
       ],
       "files": [
-        "1.20c60b0a3d6993f3fcbf.js"
+        "1.4c34a2bcbc32d60f870c.js"
       ],
       "hash": "10184ee3f726dc60cece",
       "siblings": [
@@ -6392,9 +6392,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_promise-resolve.js",
-      "issuerId": 41,
-      "issuerName": "./node_modules/core-js/modules/_promise-resolve.js",
+      "issuer": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_species-constructor.js",
+      "issuerId": 38,
+      "issuerName": "./node_modules/core-js/modules/_species-constructor.js",
       "issuerPath": [
         {
           "id": null,
@@ -6407,9 +6407,9 @@
           "name": "./node_modules/core-js/modules/es7.promise.finally.js"
         },
         {
-          "id": 41,
-          "identifier": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_promise-resolve.js",
-          "name": "./node_modules/core-js/modules/_promise-resolve.js"
+          "id": 38,
+          "identifier": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_species-constructor.js",
+          "name": "./node_modules/core-js/modules/_species-constructor.js"
         }
       ],
       "failed": false,
@@ -7625,7 +7625,7 @@
       "name": "./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./components/widgets/Test.vue?vue&type=script&lang=js&",
       "index": 77,
       "index2": 74,
-      "size": 20,
+      "size": 26,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -7704,7 +7704,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 3,
-      "source": "//\n//\n//\n//\n//\n//\n//"
+      "source": "//\n//\n//\n//\n//\n//\n//\n//\n//"
     },
     {
       "id": 17,
@@ -8453,11 +8453,11 @@
     },
     {
       "id": 27,
-      "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188& e9fccab4bf601facecccf05ca29eadba",
-      "name": "./components/widgets/Test.vue?vue&type=template&id=9bd09188& + 1 modules",
+      "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e& f2b035e2e8ca37c5fadcfbab94283a2a",
+      "name": "./components/widgets/Test.vue?vue&type=template&id=2521126e& + 1 modules",
       "index": 74,
       "index2": 73,
-      "size": 452,
+      "size": 546,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -8481,7 +8481,7 @@
           "module": "./components/widgets/Test.vue",
           "moduleName": "./components/widgets/Test.vue",
           "type": "harmony side effect evaluation",
-          "userRequest": "./Test.vue?vue&type=template&id=9bd09188&",
+          "userRequest": "./Test.vue?vue&type=template&id=2521126e&",
           "loc": "1:0-83"
         },
         {
@@ -8490,7 +8490,7 @@
           "module": "./components/widgets/Test.vue",
           "moduleName": "./components/widgets/Test.vue",
           "type": "harmony import specifier",
-          "userRequest": "./Test.vue?vue&type=template&id=9bd09188&",
+          "userRequest": "./Test.vue?vue&type=template&id=2521126e&",
           "loc": "10:2-8"
         },
         {
@@ -8499,7 +8499,7 @@
           "module": "./components/widgets/Test.vue",
           "moduleName": "./components/widgets/Test.vue",
           "type": "harmony import specifier",
-          "userRequest": "./Test.vue?vue&type=template&id=9bd09188&",
+          "userRequest": "./Test.vue?vue&type=template&id=2521126e&",
           "loc": "11:2-17"
         }
       ],
@@ -8517,8 +8517,8 @@
       "modules": [
         {
           "id": null,
-          "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-          "name": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
+          "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e&",
+          "name": "./components/widgets/Test.vue?vue&type=template&id=2521126e&",
           "index": 74,
           "index2": 73,
           "size": 202,
@@ -8555,7 +8555,7 @@
               "module": "./components/widgets/Test.vue",
               "moduleName": "./components/widgets/Test.vue",
               "type": "harmony side effect evaluation",
-              "userRequest": "./Test.vue?vue&type=template&id=9bd09188&",
+              "userRequest": "./Test.vue?vue&type=template&id=2521126e&",
               "loc": "1:0-83"
             },
             {
@@ -8564,7 +8564,7 @@
               "module": "./components/widgets/Test.vue",
               "moduleName": "./components/widgets/Test.vue",
               "type": "harmony import specifier",
-              "userRequest": "./Test.vue?vue&type=template&id=9bd09188&",
+              "userRequest": "./Test.vue?vue&type=template&id=2521126e&",
               "loc": "10:2-8"
             },
             {
@@ -8573,7 +8573,7 @@
               "module": "./components/widgets/Test.vue",
               "moduleName": "./components/widgets/Test.vue",
               "type": "harmony import specifier",
-              "userRequest": "./Test.vue?vue&type=template&id=9bd09188&",
+              "userRequest": "./Test.vue?vue&type=template&id=2521126e&",
               "loc": "11:2-17"
             }
           ],
@@ -8588,24 +8588,24 @@
           "optimizationBailout": [
           ],
           "depth": 2,
-          "source": "export * from \"-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Test.vue?vue&type=template&id=9bd09188&\""
+          "source": "export * from \"-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Test.vue?vue&type=template&id=2521126e&\""
         },
         {
           "id": null,
-          "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-          "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
+          "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e&",
+          "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./components/widgets/Test.vue?vue&type=template&id=2521126e&",
           "index": 75,
           "index2": 72,
-          "size": 250,
+          "size": 344,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
           ],
-          "issuer": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188&",
+          "issuer": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e&",
           "issuerId": null,
-          "issuerName": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
+          "issuerName": "./components/widgets/Test.vue?vue&type=template&id=2521126e&",
           "issuerPath": [
             {
               "id": null,
@@ -8619,8 +8619,8 @@
             },
             {
               "id": null,
-              "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-              "name": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&"
+              "identifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e&",
+              "name": "./components/widgets/Test.vue?vue&type=template&id=2521126e&"
             }
           ],
           "failed": false,
@@ -8631,20 +8631,20 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-              "module": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-              "moduleName": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
+              "moduleIdentifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e&",
+              "module": "./components/widgets/Test.vue?vue&type=template&id=2521126e&",
+              "moduleName": "./components/widgets/Test.vue?vue&type=template&id=2521126e&",
               "type": "harmony side effect evaluation",
-              "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Test.vue?vue&type=template&id=9bd09188&",
+              "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Test.vue?vue&type=template&id=2521126e&",
               "loc": "1:0-202"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-              "module": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
-              "moduleName": "./components/widgets/Test.vue?vue&type=template&id=9bd09188&",
+              "moduleIdentifier": "/workspace/widgets-generator-testing/node_modules/vue-loader/lib/loaders/pitcher.js??ref--4!/workspace/widgets-generator-testing/node_modules/vue-loader/lib/index.js??vue-loader-options!/workspace/widgets-generator-testing/components/widgets/Test.vue?vue&type=template&id=2521126e&",
+              "module": "./components/widgets/Test.vue?vue&type=template&id=2521126e&",
+              "moduleName": "./components/widgets/Test.vue?vue&type=template&id=2521126e&",
               "type": "harmony export imported specifier",
-              "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Test.vue?vue&type=template&id=9bd09188&",
+              "userRequest": "-!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Test.vue?vue&type=template&id=2521126e&",
               "loc": "1:0-202"
             }
           ],
@@ -8659,7 +8659,7 @@
           "optimizationBailout": [
           ],
           "depth": 3,
-          "source": "var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v(\"Widget Title\")]),_vm._v(\" \"),_c('p',[_vm._v(_vm._s(_vm.test))])])}\nvar staticRenderFns = []\n\nexport { render, staticRenderFns }"
+          "source": "var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v(\"Widget Title\")]),_vm._v(\" \"),_c('p',[_vm._v(_vm._s(_vm.test))]),_vm._v(\" \"),_c('h1',[_vm._v(_vm._s(_vm.test))]),_vm._v(\" \"),_c('h1',[_vm._v(\"Widget Title\")])])}\nvar staticRenderFns = []\n\nexport { render, staticRenderFns }"
         }
       ],
       "filteredModules": 0
@@ -9628,7 +9628,7 @@
           "module": "./.nuxt/nuxt-custom-elements/entries/packages.js + 2 modules",
           "moduleName": "./.nuxt/nuxt-custom-elements/entries/packages.js + 2 modules",
           "type": "harmony side effect evaluation",
-          "userRequest": "@/components/widgets/Test.vue",
+          "userRequest": "~/components/widgets/Test.vue",
           "loc": "9:0-55"
         },
         {
@@ -9637,7 +9637,7 @@
           "module": "./.nuxt/nuxt-custom-elements/entries/packages.js + 2 modules",
           "moduleName": "./.nuxt/nuxt-custom-elements/entries/packages.js + 2 modules",
           "type": "harmony import specifier",
-          "userRequest": "@/components/widgets/Test.vue",
+          "userRequest": "~/components/widgets/Test.vue",
           "loc": "47:45-55"
         }
       ],
@@ -9649,7 +9649,7 @@
         "ModuleConcatenation bailout: Module exports are unknown"
       ],
       "depth": 1,
-      "source": "import { render, staticRenderFns } from \"./Test.vue?vue&type=template&id=9bd09188&\"\nimport script from \"./Test.vue?vue&type=script&lang=js&\"\nexport * from \"./Test.vue?vue&type=script&lang=js&\"\n\n\n/* normalize component */\nimport normalizer from \"!../../node_modules/vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  null,\n  null\n  \n)\n\nexport default component.exports"
+      "source": "import { render, staticRenderFns } from \"./Test.vue?vue&type=template&id=2521126e&\"\nimport script from \"./Test.vue?vue&type=script&lang=js&\"\nexport * from \"./Test.vue?vue&type=script&lang=js&\"\n\n\n/* normalize component */\nimport normalizer from \"!../../node_modules/vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  null,\n  null\n  \n)\n\nexport default component.exports"
     },
     {
       "id": 43,
@@ -11760,7 +11760,7 @@
       "name": "./.nuxt/nuxt-custom-elements/entries/packages.js + 2 modules",
       "index": 0,
       "index2": 83,
-      "size": 22219,
+      "size": 22218,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -11803,7 +11803,7 @@
           "name": "./.nuxt/nuxt-custom-elements/entries/packages.js",
           "index": 0,
           "index2": 83,
-          "size": 1637,
+          "size": 1636,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11837,7 +11837,7 @@
             "ModuleConcatenation bailout: Module is an entry point"
           ],
           "depth": 0,
-          "source": "import \"regenerator-runtime/runtime\";\nimport _asyncToGenerator from \"@babel/runtime/helpers/esm/asyncToGenerator\";\nimport \"core-js/modules/es6.array.iterator\";\nimport \"core-js/modules/es6.promise\";\nimport \"core-js/modules/es6.object.assign\";\nimport \"core-js/modules/es7.promise.finally\";\nimport Vue from 'vue';\nimport VueCustomElement from 'vue-custom-element';\nimport Component0 from '@/components/widgets/Test.vue';\nVue.use(VueCustomElement);\n\nfunction polyfill() {\n  return _polyfill.apply(this, arguments);\n}\n\nfunction _polyfill() {\n  _polyfill = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            if ('customElements' in window || 'registerElement' in document) {\n              _context.next = 6;\n              break;\n            }\n\n            _context.next = 3;\n            return import('document-register-element/build/document-register-element');\n\n          case 3:\n            return _context.abrupt(\"return\", _context.sent);\n\n          case 6:\n            return _context.abrupt(\"return\");\n\n          case 7:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee);\n  }));\n  return _polyfill.apply(this, arguments);\n}\n\npolyfill().then(function () {\n  Vue.customElement('netplus-test-packages', Component0, {\n    \"shadow\": false,\n    \"props\": {\n      \"basePath\": \"/\"\n    }\n  }); // Create missing NuxtLink as RouterLink.\n\n  Vue.component('NuxtLink', {\n    extends: Vue.component('RouterLink')\n  });\n});"
+          "source": "import \"regenerator-runtime/runtime\";\nimport _asyncToGenerator from \"@babel/runtime/helpers/esm/asyncToGenerator\";\nimport \"core-js/modules/es6.array.iterator\";\nimport \"core-js/modules/es6.promise\";\nimport \"core-js/modules/es6.object.assign\";\nimport \"core-js/modules/es7.promise.finally\";\nimport Vue from 'vue';\nimport VueCustomElement from 'vue-custom-element';\nimport Component0 from '~/components/widgets/Test.vue';\nVue.use(VueCustomElement);\n\nfunction polyfill() {\n  return _polyfill.apply(this, arguments);\n}\n\nfunction _polyfill() {\n  _polyfill = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            if ('customElements' in window || 'registerElement' in document) {\n              _context.next = 6;\n              break;\n            }\n\n            _context.next = 3;\n            return import('document-register-element/build/document-register-element');\n\n          case 3:\n            return _context.abrupt(\"return\", _context.sent);\n\n          case 6:\n            return _context.abrupt(\"return\");\n\n          case 7:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee);\n  }));\n  return _polyfill.apply(this, arguments);\n}\n\npolyfill().then(function () {\n  Vue.customElement('netplus-test-packages', Component0, {\n    \"shadow\": true,\n    \"props\": {\n      \"test\": \"salut\"\n    }\n  }); // Create missing NuxtLink as RouterLink.\n\n  Vue.component('NuxtLink', {\n    extends: Vue.component('RouterLink')\n  });\n});"
         },
         {
           "id": null,

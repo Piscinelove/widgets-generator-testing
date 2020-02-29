@@ -139,6 +139,7 @@ function getSymlinkPlugin (options, config, entryName) {
     const symlinkOptions = Object.assign({
       origin: entryName+'.[hash].js',
       symlink: entryName+'.latest.js',
+      force: true
     }, options.analyze)
     return [new CreateSymlinkPlugin([symlinkOptions])]
 }
