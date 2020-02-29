@@ -1,0 +1,11 @@
+# Common
+node_modules
+dist
+.nuxt
+coverage
+reports
+
+# Plugin
+lib/plugin.js
+lib/tmpl/entry.js
+
