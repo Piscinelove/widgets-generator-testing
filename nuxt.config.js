@@ -48,6 +48,7 @@ export default {
         polyfill: true,
         publicPath: '/',
         staticPath: resolve(__dirname, './static/widgets'),
+        publishPath: 'static/publish',
         entries: [
           {
             name: 'packages',
