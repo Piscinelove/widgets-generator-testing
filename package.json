@@ -1,0 +1,22 @@
+{
+  "name": "widgets-generator-testing",
+  "version": "1.0.0",
+  "description": "My ace Nuxt.js project",
+  "author": "Piscinelove",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "document-register-element": "^1.14.3",
+    "nuxt": "^2.0.0",
+    "vue-custom-element": "^3.2.13"
+  },
+  "devDependencies": {}
+}
