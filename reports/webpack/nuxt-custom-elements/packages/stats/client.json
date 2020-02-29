@@ -5,8 +5,8 @@
   ],
   "version": "4.41.6",
   "hash": "20c60b0a3d6993f3fcbf",
-  "time": 1198,
-  "builtAt": 1582980557846,
+  "time": 1134,
+  "builtAt": 1582983520131,
   "publicPath": "./",
   "outputPath": "/workspace/widgets-generator-testing/.nuxt/nuxt-custom-elements/dist/packages",
   "assetsByChunkName": {
@@ -414,9 +414,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_species-constructor.js",
-          "issuerId": 38,
-          "issuerName": "./node_modules/core-js/modules/_species-constructor.js",
+          "issuer": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_promise-resolve.js",
+          "issuerId": 41,
+          "issuerName": "./node_modules/core-js/modules/_promise-resolve.js",
           "issuerPath": [
             {
               "id": null,
@@ -429,9 +429,9 @@
               "name": "./node_modules/core-js/modules/es7.promise.finally.js"
             },
             {
-              "id": 38,
-              "identifier": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_species-constructor.js",
-              "name": "./node_modules/core-js/modules/_species-constructor.js"
+              "id": 41,
+              "identifier": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_promise-resolve.js",
+              "name": "./node_modules/core-js/modules/_promise-resolve.js"
             }
           ],
           "failed": false,
@@ -6392,9 +6392,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_species-constructor.js",
-      "issuerId": 38,
-      "issuerName": "./node_modules/core-js/modules/_species-constructor.js",
+      "issuer": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_promise-resolve.js",
+      "issuerId": 41,
+      "issuerName": "./node_modules/core-js/modules/_promise-resolve.js",
       "issuerPath": [
         {
           "id": null,
@@ -6407,9 +6407,9 @@
           "name": "./node_modules/core-js/modules/es7.promise.finally.js"
         },
         {
-          "id": 38,
-          "identifier": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_species-constructor.js",
-          "name": "./node_modules/core-js/modules/_species-constructor.js"
+          "id": 41,
+          "identifier": "/workspace/widgets-generator-testing/node_modules/core-js/modules/_promise-resolve.js",
+          "name": "./node_modules/core-js/modules/_promise-resolve.js"
         }
       ],
       "failed": false,

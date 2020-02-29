@@ -2,6 +2,7 @@ import path from 'path'
 import fsExtra from 'fs-extra'
 import webpack from 'webpack'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
+import CreateSymlinkPlugin  from 'create-symlink-webpack-plugin'
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer'
 import { getTagHTMLFromEntry } from './tags'
 import { getBuildDir, MODULE_NAME } from './index'
@@ -98,6 +99,7 @@ export function getWebpackConfig (entryName, nuxt, config, options) {
 
   plugins.push(...getBundleAnalyzerPlugin(options, config, entryName))
 
+  plugins.push(...getSymlinkPlugin(options, config, entryName))
   return Object.assign({}, config, {
     target: 'web',
     entry: options.entry,
@@ -130,6 +132,15 @@ function getBundleAnalyzerPlugin (options, config, entryName) {
     return [new BundleAnalyzerPlugin(analyzerOptions)]
   }
   return []
+}
+
+function getSymlinkPlugin (options, config, entryName) {
+    // BundleAnalyzerPlugin
+    const symlinkOptions = Object.assign({
+      origin: entryName+'.[hash].js',
+      symlink: entryName+'.latest.js',
+    }, options.analyze)
+    return [new CreateSymlinkPlugin([symlinkOptions])]
 }
 
 function createHtmlWebpackPlugin (chunks, publicPath, filename, tags) {

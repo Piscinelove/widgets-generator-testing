@@ -2314,6 +2314,11 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+create-symlink-webpack-plugin@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/create-symlink-webpack-plugin/-/create-symlink-webpack-plugin-1.0.1.tgz#f86eee68cba997dafd0c91afdd980f24a90fa112"
+  integrity sha512-8yVR41zT1KqzVFcmy0eDPfqkGKpY0efnxqrdU5gEboVFpi7OySAhcmJr/w9625jI0iIkrcGh+R1jINOrsb4myw==
+
 cross-spawn@^6.0.0:
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
