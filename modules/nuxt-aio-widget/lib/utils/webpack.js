@@ -110,7 +110,7 @@ export function getWebpackConfig (entryName, nuxt, config, options) {
       publicPath: options.publicPath
     },
     optimization: {
-      // minimize: false,
+      minimize: true,
       runtimeChunk: false
     },
     plugins
