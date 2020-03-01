@@ -47,8 +47,9 @@ export default {
         analyzer: false,
         polyfill: true,
         publicPath: '/',
-        staticPath: resolve(__dirname, './static/widgets'),
+        staticPath: resolve(__dirname, './static/publish/widgets'),
         publishPath: 'static/publish',
+        publishSite: 'https://3000-ba965536-8b25-40b5-a199-e105e7f1ce7e.ws-eu01.gitpod.io',
         entries: [
           {
             name: 'packages',

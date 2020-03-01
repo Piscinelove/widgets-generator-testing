@@ -37,6 +37,7 @@
   "dependencies": {
     "change-case": "^4.1.1",
     "document-register-element": "^1.14.3",
+    "url-join": "^4.0.1",
     "vue-custom-element": "^3.2.13"
   },
   "devDependencies": {

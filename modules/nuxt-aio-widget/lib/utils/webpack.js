@@ -6,6 +6,7 @@ import CreateSymlinkPlugin  from 'create-symlink-webpack-plugin'
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer'
 import { getTagHTMLFromEntry } from './tags'
 import { getBuildDir, MODULE_NAME } from './index'
+import urlJoin from 'url-join'
 
 const AVAILABLE_CONFIG_NAMES = ['client', 'modern']
 const DEFAULT_WEBPACK_PUBLIC_PATH = './'
@@ -95,7 +96,7 @@ export function getWebpackConfig (entryName, nuxt, config, options) {
     return result
   }, [])
 
-  plugins.splice(htmlWebpackPluginIndex, 0, ...createHtmlWebpackPlugins(options.entries.filter(({ name }) => entryName === name), options.publicPath))
+  plugins.splice(htmlWebpackPluginIndex, 0, ...createHtmlWebpackPlugins(options.entries.filter(({ name }) => entryName === name), options.publicPath, options))
 
   plugins.push(...getBundleAnalyzerPlugin(options, config, entryName))
 
@@ -135,16 +136,16 @@ function getBundleAnalyzerPlugin (options, config, entryName) {
 }
 
 function getSymlinkPlugin (options, config, entryName) {
-    // BundleAnalyzerPlugin
+    // SymlinkPlugin
     const symlinkOptions = Object.assign({
       origin: entryName+'.[hash].js',
-      symlink: './../../../../static/publish/' + entryName+'.latest.js',
+      symlink: path.join('../../../..', options.publishPath, entryName+'.min.latest.js'),
       force: true
     }, options.analyze)
     return [new CreateSymlinkPlugin([symlinkOptions])]
 }
 
-function createHtmlWebpackPlugin (chunks, publicPath, filename, tags) {
+function createHtmlWebpackPlugin (chunks, publicPath, filename, tags, options) {
   filename = filename + '.html'
   return new HtmlWebpackPlugin({
     // inject: false,
@@ -162,18 +163,19 @@ function createHtmlWebpackPlugin (chunks, publicPath, filename, tags) {
         },
         publicPath,
         tags,
-        base: path.relative(`/${path.dirname(filename)}`, '/')
+        base: path.relative(`/${path.dirname(filename)}`, '/'),
+        publish: options.publishSite && options.publishPath ? urlJoin(options.publishSite, options.publishPath.replace('static/', ''), chunks + '.min.latest.js') : chunks + '.min.latest.js'
       }
     }
   })
 }
 
-function createHtmlWebpackPlugins (entries, publicPath) {
+function createHtmlWebpackPlugins (entries, publicPath, options) {
   return [
     createHtmlWebpackPlugin(entries.map(entry => entry.name), publicPath, 'index', entries.reduce((result, entry) => {
       result.push(...getTagHTMLFromEntry(entry))
       return result
-    }, []))
+    }, []), options)
   ]
 }
 

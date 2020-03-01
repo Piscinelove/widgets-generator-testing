@@ -85,18 +85,22 @@ export async function initDist (nuxt, options) {
   if ('staticPath' in options && await fsExtra.exists(options.staticPath)) {
     let copy = await fsExtra.copy(entries, options.staticPath);
   }*/
-  await fsExtra.remove(options.staticPath)
-  await fsExtra.copy(buildDir, options.staticPath, {
-        /*
-        filter: n => {
-             if (fsExtra.lstatSync(n).isDirectory()) {
-                return true;
-            }
-            console.log(n);
-            console.log(n.indexOf('latest') > -1);
-            return n.indexOf('latest') > -1 ? true : false;
-        }*/
-  })
+
+  if ('staticPath' in options && await fsExtra.exists(options.staticPath)) {
+    //await fsExtra.copy(entries, options.staticPath);
+    await fsExtra.remove(options.staticPath)
+    await fsExtra.copy(buildDir, options.staticPath, {
+      /*
+      filter: n => {
+            if (fsExtra.lstatSync(n).isDirectory()) {
+              return true;
+          }
+          console.log(n);
+          console.log(n.indexOf('latest') > -1);
+          return n.indexOf('latest') > -1 ? true : false;
+      }*/
+    })
+  }
 }
 
 export function getEntryNamingMap (options) {
